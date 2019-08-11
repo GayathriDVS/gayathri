@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+int p=0,x;
+scanf("%d:,&x);
+while(x!=0)
+{
+for(i=0;i<=x;i++)
+{
+x=x%10;
+rem=rem*10+x;
+}
+p++;
+printf("rem",rem);
+}
+return 0;
+}
